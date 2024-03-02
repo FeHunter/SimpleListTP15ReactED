@@ -1,12 +1,12 @@
 import './App.css';
 import { useState } from 'react'
-import { ListBar } from './Components/List/ListBar/ListBar'
+import { ListContainer } from './Components/List/ListContainer';
 
 function App() {
 
   return (
     <div>
-      <ListBar/>
+      <ListContainer/>
     </div>
   )
 }

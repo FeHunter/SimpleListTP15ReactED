@@ -1,0 +1,22 @@
+.ListBar {
+    display: flex;
+    padding: 10px;
+    background-color: gray;
+}
+
+.ListBar input {
+    width: 80%;
+    padding: 5px;
+    font-size: 1em;
+}
+
+.ListBar button {
+    width: 20%;
+    background-color: whitesmoke;
+    border: none;
+}
+.ListBar button:hover {
+    cursor: pointer;
+    color: white;
+    background-color: darkgray;
+}

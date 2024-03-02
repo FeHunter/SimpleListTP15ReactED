@@ -1,11 +1,12 @@
+import './App.css';
 import { useState } from 'react'
-import './App.css'
+import { ListBar } from './Components/List/ListBar/ListBar'
 
 function App() {
 
   return (
     <div>
-      
+      <ListBar/>
     </div>
   )
 }

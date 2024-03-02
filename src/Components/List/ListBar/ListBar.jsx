@@ -6,6 +6,9 @@ export function ListBar ({returnValue}){
     const [name, setName] = useState('');
 
     function ReturnTitle (){
+        if (name === '' || name.length < 3){
+            return alert('invalid typed value');
+        }
         returnValue(name);
         setName('');
     }
